@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="G-Wise Technology｜Automation / AOI / PCB / ATE / AI / ODM equipment development" />
+  <title>G-Wise Technology｜吉睿科技</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 可改字體：這是偏科技感的 Inter + Noto Sans TC -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <!-- 背景裝飾 -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="G-Wise Technology Home">
+        <span class="brand__mark">G</span>
+        <span class="brand__name">
+          <span class="brand__title">G-Wise Technology</span>
+          <span class="brand__sub">吉睿科技</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleBars" aria-hidden="true"></span>
+          <span class="sr-only">Toggle menu</span>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <a class="nav__link" href="#services">服務</a>
+          <a class="nav__link" href="#solutions">解決方案</a>
+          <a class="nav__link" href="#process">流程</a>
+          <a class="nav__link" href="#projects">案例</a>
+          <a class="nav__link" href="#contact">聯絡</a>
+        </div>
+      </nav>
+
+      <div class="header__cta">
+        <a class="btn btn--ghost" href="#contact">取得報價</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <div class="pill">
+            <span class="dot"></span>
+            <span>Automation · AOI/視覺檢測 · PCB/電子設計 · ATE · AI/軟體 · ODM 設備</span>
+          </div>
+
+          <h1>
+            專注打造<br />
+            <span class="grad">可量產、可維護</span>的智慧製造方案
+          </h1>
+
+          <p class="hero__desc">
+            吉睿科技（G-Wise Technology）提供自動化設備、視覺檢測、測試平台與軟體整合。
+            以工程落地為核心，從需求定義 → 打樣 → 量產導入 → 維護升級，一次到位。
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">立即聯絡</a>
+            <a class="btn btn--secondary" href="#projects">看案例</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <div class="stat__num">4–8 週</div>
+              <div class="stat__label">MVP 打樣交付</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">1 套</div>
+              <div class="stat__label">單機到產線整合</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">可擴充</div>
+              <div class="stat__label">模組化設計</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__panel">
+          <div class="card card--glass">
+            <div class="card__head">
+              <div class="chip">System Snapshot</div>
+              <div class="card__title">Vision + Motion + Software</div>
+              <div class="card__subtitle">從硬體到演算法整合，讓產線穩定可追溯。</div>
+            </div>
+
+            <div class="stack">
+              <div class="stack__row">
+                <div class="stack__k">AOI / 量測</div>
+                <div class="stack__v">定位、量測、缺陷判定、SPC</div>
+              </div>
+              <div class="stack__row">
+                <div class="stack__k">自動化</div>
+                <div class="stack__v">治具、機構、運動控制、安全</div>
+              </div>
+              <div class="stack__row">
+                <div class="stack__k">測試平台</div>
+                <div class="stack__v">ATE/驗證流程、自動報表</div>
+              </div>
+              <div class="stack__row">
+                <div class="stack__k">軟體/AI</div>
+                <div class="stack__v">資料追溯、儀器控制、模型部署</div>
+              </div>
+            </div>
+
+            <div class="card__foot">
+              <div class="mini">
+                <div class="mini__title">Deliverables</div>
+                <div class="mini__list">
+                  <span>電控圖 / BOM</span>
+                  <span>程式原始碼</span>
+                  <span>操作手冊</span>
+                  <span>驗收文件</span>
+                </div>
+              </div>
+              <div class="status">
+                <span class="status__dot"></span>
+                <span>Ready for production integration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="badge-row">
+            <div class="badge">可靠性</div>
+            <div class="badge">可維護</div>
+            <div class="badge">可擴充</div>
+            <div class="badge">可追溯</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <h2>服務項目</h2>
+          <p>以「能上線、能維修、能交接」為交付標準，不只做 demo。</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="feature card">
+            <h3>自動化設備</h3>
+            <p>治具、機構設計、運動控制、產線整合與安全規範。</p>
+            <ul class="list">
+              <li>機構/治具設計（DFM）</li>
+              <li>Motion & I/O 控制</li>
+              <li>量產導入與節拍優化</li>
+            </ul>
+          </article>
+
+          <article class="feature card">
+            <h3>AOI / 視覺檢測</h3>
+            <p>相機/鏡頭/光源選型、標定、量測演算法、缺陷判定。</p>
+            <ul class="list">
+              <li>2D/3D 量測與定位</li>
+              <li>AOI 缺陷判定</li>
+              <li>SPC/追溯資料串接</li>
+            </ul>
+          </article>
+
+          <article class="feature card">
+            <h3>電子設計 / PCB</h3>
+            <p>電路設計、打樣、BOM、測試點規劃、可量產設計。</p>
+            <ul class="list">
+              <li>PCB Layout / Review</li>
+              <li>硬體除錯與驗證</li>
+              <li>量產可測性（DFT）</li>
+            </ul>
+          </article>
+
+          <article class="feature card">
+            <h3>測試設備（ATE）</h3>
+            <p>自動測試平台、儀器控制、變溫/流程整合、自動報表。</p>
+            <ul class="list">
+              <li>儀器控制（含通訊）</li>
+              <li>自動測試流程/判定</li>
+              <li>報表與資料管理</li>
+            </ul>
+          </article>
+
+          <article class="feature card">
+            <h3>AI / 軟體</h3>
+            <p>產線資料/設備資料整合，視覺模型導入與部署。</p>
+            <ul class="list">
+              <li>Edge / Server 部署</li>
+              <li>資料追溯與看板</li>
+              <li>權限/版本控管</li>
+            </ul>
+          </article>
+
+          <article class="feature card">
+            <h3>ODM 設備開發</h3>
+            <p>從需求到量產 BOM/圖面/韌體/軟體，建立可複製產品線。</p>
+            <ul class="list">
+              <li>MVP → 量產設計</li>
+              <li>模組化平台策略</li>
+              <li>維修/備品規劃</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section class="section section--alt" id="solutions">
+      <div class="container">
+        <div class="section__head">
+          <h2>典型解決方案</h2>
+          <p>你可以把這段當成「客戶看到就懂你在做什麼」的頁面。</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>視覺定位 + 點膠 / 點錫整合</h3>
+            <p>以影像定位補償機構誤差，達成一致性與良率提升。</p>
+            <div class="tags">
+              <span class="tag">Vision Alignment</span>
+              <span class="tag">Motion Control</span>
+              <span class="tag">Dispense</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>尺寸量測 / 缺陷 AOI</h3>
+            <p>標定、畸變校正、量測演算法、規格判定與追溯。</p>
+            <div class="tags">
+              <span class="tag">Metrology</span>
+              <span class="tag">AOI</span>
+              <span class="tag">SPC</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>元件/IC 自動驗證平台</h3>
+            <p>儀器控制、變溫、流程自動化、報表輸出與資料管理。</p>
+            <div class="tags">
+              <span class="tag">ATE</span>
+              <span class="tag">Instrument Control</span>
+              <span class="tag">Report</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>產線資料整合與看板</h3>
+            <p>從設備端資料到雲端/內網看板，建立可追溯與可分析基礎。</p>
+            <div class="tags">
+              <span class="tag">Traceability</span>
+              <span class="tag">Dashboard</span>
+              <span class="tag">MES Ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head">
+          <h2>合作流程</h2>
+          <p>把工程的「不確定性」變成可管理的節點與交付物。</p>
+        </div>
+
+        <div class="timeline">
+          <div class="step card">
+            <div class="step__n">01</div>
+            <div class="step__body">
+              <h3>需求訪談</h3>
+              <p>規格、節拍、治具、驗收方式、風險盤點。</p>
+            </div>
+          </div>
+          <div class="step card">
+            <div class="step__n">02</div>
+            <div class="step__body">
+              <h3>方案設計</h3>
+              <p>架構/成本/時程，含 BOM、關鍵元件與替代方案。</p>
+            </div>
+          </div>
+          <div class="step card">
+            <div class="step__n">03</div>
+            <div class="step__body">
+              <h3>MVP 打樣</h3>
+              <p>4–8 週交付可運作版本，先驗證可行與關鍵指標。</p>
+            </div>
+          </div>
+          <div class="step card">
+            <div class="step__n">04</div>
+            <div class="step__body">
+              <h3>量產導入</h3>
+              <p>優化節拍、可靠性、維修性，建立備品與SOP。</p>
+            </div>
+          </div>
+          <div class="step card">
+            <div class="step__n">05</div>
+            <div class="step__body">
+              <h3>維護升級</h3>
+              <p>軟體更新、參數管理、資料追溯、功能擴充。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2>案例展示（可先放佔位）</h2>
+          <p>你之後把「真案例」的照片、數據補上，可信度會爆升。</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card project">
+            <div class="project__top">
+              <div class="project__kpi">
+                <div class="kpi__num">±0.02mm</div>
+                <div class="kpi__label">定位/量測能力（示意）</div>
+              </div>
+            </div>
+            <h3>視覺量測站</h3>
+            <p>相機/鏡頭/光源整合，量測與規格判定 + 報表輸出。</p>
+          </div>
+
+          <div class="card project">
+            <div class="project__top">
+              <div class="project__kpi">
+                <div class="kpi__num">-30%</div>
+                <div class="kpi__label">人工檢測工時（示意）</div>
+              </div>
+            </div>
+            <h3>AOI 缺陷判定</h3>
+            <p>缺陷類別定義、演算法、SPC、追溯資料串接。</p>
+          </div>
+
+          <div class="card project">
+            <div class="project__top">
+              <div class="project__kpi">
+                <div class="kpi__num">24/7</div>
+                <div class="kpi__label">自動測試運行（示意）</div>
+              </div>
+            </div>
+            <h3>ATE 測試平台</h3>
+            <p>儀器控制、變溫流程、自動判定與報表生成。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta card card--glass">
+          <div class="cta__copy">
+            <h2>聯絡我們</h2>
+            <p>把你的需求（產品、尺寸、節拍、精度、環境、輸入/輸出）簡單描述，我們會回覆可行方案與評估。</p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <div class="contact-item__k">Email</div>
+                <div class="contact-item__v">
+                  <a href="mailto:yourname@example.com">yourname@example.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__k">Location</div>
+                <div class="contact-item__v">Taiwan</div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__k">Business</div>
+                <div class="contact-item__v">Automation · Vision · PCB · ATE · AI</div>
+              </div>
+            </div>
+
+            <div class="note">
+              <strong>小提醒：</strong>上面 Email 改成你的公司信箱；Location 可改「新竹」或你的所在地。
+            </div>
+          </div>
+
+          <!-- 這是「假表單」：GitHub Pages 沒有後端，先做外觀。
+               你想要可送出表單，我可以幫你接 Google Form / Formspree / Zapier。 -->
+          <form class="form" onsubmit="return false;">
+            <label>
+              公司 / 姓名
+              <input type="text" placeholder="例：XX科技 / 王先生" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="name@company.com" />
+            </label>
+            <label>
+              需求簡述
+              <textarea rows="5" placeholder="例：產品尺寸、精度、節拍、是否需視覺定位/量測、是否需報表/追溯..."></textarea>
+            </label>
+            <button class="btn btn--primary btn--full" type="submit">
+              送出（示意）
+            </button>
+            <p class="form__hint">此按鈕目前是示意，不會真的送出。</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="footer__brand">G-Wise Technology Co., Ltd.</div>
+        <div class="footer__sub">© <span id="year"></span> 吉睿科技｜All rights reserved.</div>
+      </div>
+      <div class="footer__right">
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
